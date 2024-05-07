@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+
+.bg {
+    background-color:#f2b6aa;
+
+    /* gradient background */
+    background: rgb(203,214,120);
+    background: linear-gradient(300deg, rgba(203,214,120,1) 2%, rgba(246,220,164,1) 46%, rgba(121,255,225,1) 100%);
+
+    background-image: url('sample.jpg');
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/004/574/139/small_2x/colorful-abstract-background-modern-fluid-background-free-vector.jpg');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ; 
+    background-attachment: fixed ;
+    
+    /* background: bg-color || bg-image || bg-position || bg-repeat || bg-size || bg-attachment */
+
+    /* background: aqua url('sample.jpg') center cover no-repeat fixed;  */
+}
+
+.font-sample {
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: "Jersey 15", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: teal;
+    color: mintcream;
+}
+
+.text-sample {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    font-size: 18px;
+}
+
+.spacing-sample {
+    letter-spacing: 5px;
+    line-height: 5;
+    background-color: palegoldenrod;
+    text-indent: 40px;
+}
+
+/*  
+    text-shadow : 
+        x-coordinate ||
+        y-coordinate ||
+        blur radius ||
+        color of the shadow
+*/
+#shadow-sample {
+    text-shadow: 10px -5px 8px #b12181fe;
+}

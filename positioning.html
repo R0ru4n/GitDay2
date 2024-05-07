@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning</title>
+    <style>
+        .static {
+        background-color: lightcoral;
+        width: 200px;
+        padding: 10px;
+        margin-bottom: 10px;
+        position: static;
+      }
+
+      .absolute {
+        background-color: lightsalmon;
+        width: 150px;
+        padding: 10px;
+        position: absolute;
+        /*
+            positioning properties:
+                top, left, right, bottom
+        */
+        top: 0px;
+        left: 100px;
+      }
+
+      .relative {
+        background-color: lightgrey;
+        padding: 10px;
+        margin-right: 20px;
+        position: relative;
+        /*
+            positioning properties:
+                top, left, right, bottom
+        */
+        top: 20px;
+        left: 50px;
+      }
+
+      .container {
+            margin: 10px;
+            height: 500px;
+            width: 300px;
+            top: 50px;
+            display: block;
+        }
+
+        .fixed {
+        background-color: lightskyblue;
+        width: 200px;
+        padding: 10px;
+        position: fixed;
+        text-align: center;
+        border: 5px double red;
+
+        /*
+            positioning properties:
+                top, left, right, bottom
+        */
+
+        top: 20px;
+        right: 120px;
+        bottom: 20px;
+      }
+
+      .sticky {
+        background-color: lightgreen;
+        padding: 10px;
+        width: 200px;
+        position: sticky;
+        /*
+            positioning properties:
+                top, left, right, bottom
+        */
+        top: 100px;
+        right: 40px;
+      }
+      
+    </style>
+</head>
+<body>
+
+    <div class="container">    
+        <h1>Position Property</h1>
+        <div class="static">Static Position</div>
+    
+        <div class="relative">Relative Position</div>
+    
+        <div class="absolute">Absolute Position</div>
+    </div>
+    
+</body>
+</html>
